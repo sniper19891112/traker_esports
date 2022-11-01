@@ -107,3 +107,19 @@ footer {
         font-size: 15px;
     }
 }
+@media screen and (max-width: 880px) {
+	.footer-box{
+		padding: 0px;
+	}
+
+	.footer{
+		padding-top: 30px;
+		padding-left: 4%;
+		padding-right: 4%;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px; 
+	}
+}

@@ -25,16 +25,16 @@ function Header(props) {
 	                    <Link className="nav-link" to="/">Accueil</Link>
 	                </li>
 	                <li className="nav-item">
-	                    <Link className="nav-link" to="teams">Team</Link>
+	                    <Link className="nav-link" to="/teams">Team</Link>
 	                </li>
 	                <li className="nav-item-active">
-	                    <Link className="nav-link" to="news">News</Link>
+	                    <Link className="nav-link" to="/news">News</Link>
 	                </li>
 	                <li className="nav-item-active">
-	                    <Link className="nav-link" to="tournois">Tournois</Link>
+	                    <Link className="nav-link" to="/tournois">Tournois</Link>
 	                </li>
 	                <li className="nav-item-active">
-	                    <Link className="nav-link" to="contact">Contact</Link>
+	                    <Link className="nav-link" to="/contact">Contact</Link>
 	                </li>
 	            </ul>
 	        </div>

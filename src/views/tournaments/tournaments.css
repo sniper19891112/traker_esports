@@ -1,0 +1,72 @@
+p{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+section.content{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+}
+div.tournois_halloween{
+    z-index: 3;
+    padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 0px 0px 75px 00px rgba(0, 0, 0, 0.4);
+	width: 1000px;
+	margin: auto;
+	margin-top: 10%;
+	display:flex;
+	width: 75%;
+}
+div.tournois_halloween h2{
+	padding: 10px;
+}
+div.tournois_halloween a{
+	text-decoration: underline;
+	color: #1eb7eb;
+}
+div.tournois_halloween p{
+	color: rgb(30,30,30);
+	padding: 10px;
+}
+footer{
+    position: absolute;
+    top: 200%!important;
+}
+@media screen and (max-width: 1700px) {
+	div.tournois_halloween p{
+		font-size: 12px;
+	}
+	div.tournois_halloween img{
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.presentation .big-title{
+		font-size: 40px;
+	}
+	div.tournois_halloween{
+		margin-top: 10%;
+		display:inline-block;
+		width: 75%;
+		height: 180%;
+		margin: 12.5%;
+	}
+	div.tournois_halloween img{
+		width: 500px;
+	}
+	footer{
+	    position: absolute;
+	    top: 300%;
+	}
+
+}
+@media screen and (max-width: 540px) {
+
+	div.tournois_halloween img{
+		width: 260px;
+	}
+
+}

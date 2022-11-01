@@ -1,0 +1,18 @@
+footer{
+    top: 100%!important;
+}
+section.socials{
+    top: 0%;
+    z-index: -4;
+}
+section.stream{
+    top: 0%;
+    z-index: -4;
+}
+section.news{
+    top: 0%;
+    z-index: -4;
+}
+.presentation .big-title{
+    font-size: 90px;
+}

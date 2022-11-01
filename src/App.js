@@ -5,6 +5,9 @@ import Home from './views/home/Home.js';
 import Header from './components/header/Header.js';
 import Footer from './components/footer/Footer.js';
 import Teams from './views/teams/Teams.js';
+import News from './views/news/News.js';
+import Tournaments from './views/tournaments/Tournaments.js';
+import Contact from './views/contact/Contact.js';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/teams" component={Teams} />
+          <Route exact path="/news" component={News} />
+          <Route exact path="/tournois" component={Tournaments} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </Router>

@@ -4,7 +4,6 @@ import './news.css';
 
 function News(props) {
 	const scroll = () => {
-
 	}
 
 	return (

@@ -4,7 +4,6 @@ import './tournaments.css';
 
 function Tournaments(props) {
 	const scroll = () => {
-
 	}
 
 	return (

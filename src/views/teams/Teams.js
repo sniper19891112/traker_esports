@@ -55,7 +55,7 @@ function Teams(props) {
 		        </section>
 		    </section>
 			<section className="all">
-			    <h3 align="center">Présidents</h3>
+			    <h3 align="center" className="pd-h3">Présidents</h3>
 			    <section className="head-staff">
 			            <div className="profile">
 			                <div className="profile-content">

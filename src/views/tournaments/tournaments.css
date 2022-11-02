@@ -30,10 +30,6 @@ div.tournois_halloween p{
 	color: rgb(30,30,30);
 	padding: 10px;
 }
-footer{
-    position: absolute;
-    top: 200%!important;
-}
 @media screen and (max-width: 1700px) {
 	div.tournois_halloween p{
 		font-size: 12px;
@@ -56,10 +52,6 @@ footer{
 	}
 	div.tournois_halloween img{
 		width: 500px;
-	}
-	footer{
-	    position: absolute;
-	    top: 300%;
 	}
 
 }

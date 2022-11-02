@@ -10,9 +10,8 @@ import './home.css';
 
 function Home(props) {
 	const scroll = () => {
-
+		
 	}
-
 	return (
 		<div>
 		    <section className="index">
@@ -30,8 +29,8 @@ function Home(props) {
 		            </div>
 		        </section>
 		    </section>		
-	        <section className="news" id="news">
-	            <div className="news">
+	        <section className="home-news">
+	            <div className="home-news">
 	                <h2 className="big-title" align="center">Presentation</h2>
 	            </div>
 	            <p className="text-presentation"><b>Traker eSport</b> est une association esportive, fondée le 15 septembre 2017, par un passionné qui voulait faire de son rêve une réalité. Son objectif créer une <b>grande famille</b> avec un seul objectif: être les <b>meilleurs</b> ! Pour cela il a su s’entourer de personnes de confiance et d’une communauté en <b>or</b> afin d’atteindre son but. <br/> <br/>
@@ -48,22 +47,22 @@ function Home(props) {
 	                    <h2 className="big-title" align="center">SUIVEZ-NOUS</h2>
 	                    <p align="center">SUR</p>
 	                    <div className="reseaux" align="center">
-	                        <Link className="twitter" to="https://twitter.com/TrakerEsport" target="_blank">
+	                        <Link className="twitter" href="https://twitter.com/TrakerEsport" target="_blank">
 	                            <img src={LogoTwitterIcon} />
 	                        </Link>
-	                        <Link className="instagram" to="https://www.instagram.com/trakeresport/?hl=fr" target="_blank">
+	                        <Link className="instagram" href="https://www.instagram.com/trakeresport/?hl=fr" target="_blank">
 	                            <img src={LogoInstaBlacIcon}/>
 	                        </Link>
-	                        <Link className="yt" to="https://www.youtube.com/channel/UCuVOZVYC3GV1ghiYG6FHohg" target="_blank">
+	                        <Link className="yt" href="https://www.youtube.com/channel/UCuVOZVYC3GV1ghiYG6FHohg" target="_blank">
 	                            <img src={LogoYtBlancIcon} />
 	                        </Link>
-	                        <Link className="twitch" to="https://www.twitch.tv/trakeresport" target="_blank">
+	                        <Link className="twitch" href="https://www.twitch.tv/trakeresport" target="_blank">
 	                            <img src={LogoTwitchBlancIcon}/>
 	                        </Link>
-	                        <Link className="discord" to="https://discord.gg/pmPST9Cf" target="_blank">
+	                        <Link className="discord" href="https://discord.gg/pmPST9Cf" target="_blank">
 	                            <img src={LogoDiscordBlancIcon}/>
 	                        </Link>
-	                        <Link className="tiktok" to="https://www.tiktok.com/@trakeresport" target="_blank">
+	                        <Link className="tiktok" href="https://www.tiktok.com/@trakeresport" target="_blank">
 	                            <img src={LogoTiktokIcon}/>
 	                        </Link>
 	                    </div> 

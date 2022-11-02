@@ -23,7 +23,7 @@ function Contact(props) {
 		            </div>
 		        </section>
 		    </section>		
-			<section className="content">
+			<section className="contact-content">
 				<h1 className="contact big-title">Nous contacter</h1>
 				<div className="form">
 				    <form action="" method="POST">

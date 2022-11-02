@@ -6,6 +6,7 @@ import LogoInstaBlacIcon from "../../assets/img/logo_insta_blanc.png";
 import LogoYtBlancIcon from "../../assets/img/logo_yt_blanc.png";
 import LogoTwitchBlancIcon from "../../assets/img/logo_twitch_bpanc.png";
 import LogoTiktokIcon from "../../assets/img/logo_tiktok.png";
+import LogoBehanceIcon from "../../assets/img/logo_behance.png";
 import pdp_astral_icon from "../../assets/img/pdp/pdp_astral.jpg";
 import pdp_axia_icon from "../../assets/img/pdp/pdp_axia.jpg";
 import pdp_emiva_icon from "../../assets/img/pdp/pdp_emiva.jpg.jfif";
@@ -160,7 +161,7 @@ function Teams(props) {
 			                <Link className="twitter" to="https://twitter.com/Emiva_Design" target="_blank"><img className="img-twitter" src={LogoTwitterIcon}/></Link>
 			                <Link className="twitch" to="https://www.twitch.tv/emiva" target="_blank"><img className="img-twitch" src={LogoTwitchBlancIcon}/></Link>
 			                <Link className="insta" to="https://www.instagram.com/emivaea/" target="_blank"><img className="img-insta" src={LogoInstaBlacIcon}/></Link>
-			                <Link className="behance" to="https://www.behance.net/emilieblancportfolio" target="_blank"><img className="img-behance" src="/static/img/logo_behance.png"/></Link>
+			                <Link className="behance" to="https://www.behance.net/emilieblancportfolio" target="_blank"><img className="img-behance" src={LogoBehanceIcon}/></Link>
 			            </div>
 			        </div>
 			    </section>
@@ -393,7 +394,7 @@ function Teams(props) {
 			                        <p className="presentation">Salut, je suis étudiant en communication je suis passionné d'aviation et du moyen age je vie en outre mer sur l'île de la réunion et j'ai 19 ans</p>
 			                    </div>
 			                    <div className="profile-links">
-			                        <Link className="behance" to="https://www.behance.net/broxoff" target="_blank"><img className="img-behance" src="/static/img/logo_behance.png"/></Link>
+			                        <Link className="behance" to="https://www.behance.net/broxoff" target="_blank"><img className="img-behance" src={LogoBehanceIcon}/></Link>
 			                    </div>
 			                </div>
 			        </section>
@@ -425,7 +426,7 @@ function Teams(props) {
 			                    </div>
 			                    <div className="profile-links">
 			                        <Link className="twitter" to="https://twitter.com/MagicalCloudGFX" target="_blank"><img className="img-twitter" src={LogoTwitterIcon}/></Link>
-			                        <Link className="behance" to="https://www.behance.net/magicalcloud" target="_blank"><img className="img-behance" src="/static/img/logo_behance.png"/></Link>
+			                        <Link className="behance" to="https://www.behance.net/magicalcloud" target="_blank"><img className="img-behance" src={LogoBehanceIcon}/></Link>
 			                    </div>
 			                </div>
 			                <div className="profile">

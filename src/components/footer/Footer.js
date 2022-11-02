@@ -1,8 +1,36 @@
-import React from "react";
-import {Link} from 'react-router-dom';
+import React, {useEffect} from "react";
+import {Link, useLocation} from 'react-router-dom';
 import './footer.css';
 
 function Footer(props) {
+
+	const location = useLocation();
+  	const pathName = location.pathname;
+
+  	useEffect(() => {
+  		let footerElement = document.getElementById('footer');
+  		if (pathName == "/") {
+  			footerElement.style.top = "400%";
+  			footerElement.style.display = "block";
+  		}
+  		if (pathName == "/teams") {
+  			footerElement.style.display = "none";
+  		}
+  		if (pathName == "/news") {
+  			footerElement.style.top = "100%";
+  			footerElement.style.display = "block";
+  		}
+  		if (pathName == "/tournois") {
+  			footerElement.style.top = "200%";
+  			footerElement.style.display = "block";
+  		}
+  		if (pathName == "/contact") {
+  			footerElement.style.top = "200%";
+  			footerElement.style.display = "block";
+  		}
+  	})  	
+  	
+
 	return (
 		<div>
 		    <footer id="footer">
